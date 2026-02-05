@@ -1,0 +1,50 @@
+body {background-color: #222;}
+#wrap {
+    background-color: #fff;
+    width: 440px; height: 956px;
+    margin: 0 auto;
+    background-image: url(../images/bg1.jpg);
+    background-size:200% auto; /* w h */ 
+    background-repeat:no-repeat; /* 화면보다 이미지가 작을 때 */
+    background-position:right center;/* x y */
+    padding: 100px 0 0;
+    text-align: center;
+}
+#wrap #title {
+    margin-bottom: 40px;
+}
+#wrap #title p {
+    margin-bottom: 12px;
+}
+#wrap #title h1 {
+    font-size: 1.25em;
+}
+#wrap #title h1 span {
+    font-weight: 600;
+}
+#wrap #birthday_frm {}
+#wrap #birthday_frm > * {
+        display: block;
+        margin: 0 auto; 
+}
+#wrap #birthday_frm input {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 10px;
+    width: 160px;
+}
+#wrap #birthday_frm input::placeholder {color:#ccc;}
+#wrap #birthday_frm input:focus {border: 1px solid #FF8B4C;}
+#wrap #birthday_frm #user_year{}
+#wrap #birthday_frm #user_month{}
+#wrap #birthday_frm #user_day{}
+#wrap #birthday_frm button {
+    background-color: black;
+    color: #fff;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 50px ;
+} 
+#wrap #birthday_frm button:hover {background-color: #FF8B4C;}
